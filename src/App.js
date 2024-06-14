@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Home from './components/Home'
 
@@ -10,11 +10,11 @@ import {
 import Users from './pages/Users';
 
 function App() {
-  const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
+  // const [openSidebarToggle, setOpenSidebarToggle] = useState(false)
 
-  const OpenSidebar = () => {
-    setOpenSidebarToggle(!openSidebarToggle)
-  }
+  // const OpenSidebar = () => {
+  //   setOpenSidebarToggle(!openSidebarToggle)
+  // }
 
   return (
     <Router>
